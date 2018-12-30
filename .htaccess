@@ -1,0 +1,8 @@
+RewriteEngine on
+
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule ^ index.php [QSA,L]
+
+# in this case, our app bootstrap file is index.php
+RewriteRule !\.(js|gif|jpg|jpeg|png|svg|css)$ index.php
