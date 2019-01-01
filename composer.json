@@ -4,6 +4,7 @@
     "keywords": ["framework", "slim"],
     "license": "MIT",
     "type": "project",
+    "minimum-stability": "dev",
     "require": {
     	"php": ">=7.0.0",
         "slim/slim": "^3.0",
