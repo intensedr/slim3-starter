@@ -8,10 +8,10 @@ use Psr\Http\Message\{
     ResponseInterface as Response
 };
 
-class HomeController extends Controller
+class ApiController extends Controller
 {
     public function index(Request $request, Response $response, $args)
     {
-        return $this->container->view->render($response, 'home/home.twig');
+        return $response->withJson(['text' => 'Hello from app']);
     }
 }
