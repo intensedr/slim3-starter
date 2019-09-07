@@ -1,4 +1,4 @@
-# Slim 3 Framework Skeleton Application
+# Slim Framework Skeleton Application
 ## Installation
 
 `composer create-project intensedr/slim-framework-starter projectname`
