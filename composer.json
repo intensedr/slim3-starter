@@ -1,7 +1,7 @@
 {
     "name": "intensedr/slim3-starter",
-    "description": "A skeleton structure for Slim",
-    "keywords": ["framework", "slim"],
+    "description": "A skeleton structure for Slim 3",
+    "keywords": ["framework", "slim 3"],
     "license": "MIT",
     "type": "project",
     "require": {
